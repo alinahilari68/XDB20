@@ -1,0 +1,1155 @@
+<!DOCTYPE html><html><head><title>人岗匹配|智能推荐系统 - 校导帮智能</title>
+<meta charSet=UTF-8"utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="keywords" content="人岗匹配,简历推荐,校导帮智能,校导帮,智能推荐"/>
+<meta name="description" content="校导帮智能候人岗匹配，基于大数据及机器学习建模，对用户的筛选要求进行深层理解，给用户推送最合适的候选人。"/>
+<meta property="og:url" content="https://www.xiaoxizn.com/recommender-upload/"/>
+<meta property="og:title" content="人岗匹配|智能推荐系统 - 校导帮智能"/>
+<meta property="og:description" content="校导帮智能候人岗匹配，基于大数据及机器学习建模，对用户的筛选要求进行深层理解，给用户推送最合适的候选人。"/>
+<meta property="og:site_name" content="校导帮智能"/>
+<meta property="og:image" content="https://img.xiaoxizn.com/landing/home.png"/>
+<meta name="twitter:title" content="人岗匹配|智能推荐系统 - 校导帮智能"/>
+<meta name="twitter:description" content="校导帮智能候人岗匹配，基于大数据及机器学习建模，对用户的筛选要求进行深层理解，给用户推送最合适的候选人。"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:site" content="校导帮智能"/><meta name="twitter:creator" content="校导帮智能"/>
+<meta name="twitter:image" content="https://img.xiaoxizn.com/landing/home.png"/><link rel="icon" href="/favicon.ico"/>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "hm.js-9814444c6736cd91f6943b1aa29ed7dd"/*tpa=https://hm.baidu.com/hm.js?9814444c6736cd91f6943b1aa29ed7dd*/;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-135076400-1');
+    </script><script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        bp.src = 'push.js'/*tpa=https://zz.bdstatic.com/linksubmit/push.js*/;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script><script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        bp.src = '11.0.1.js-58658fc20c40a211abac55a4bfddb41e'/*tpa=https://jspassport.ssl.qhimg.com/11.0.1.js?58658fc20c40a211abac55a4bfddb41e*/;
+        bp.id = 'sozz'
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script><meta name="next-head-count" content="22"/><link rel="icon" type="image/png" href="images/xiaodaobangxia.png" />
+    <link rel="preload" href="/_next/static/css/styles.386d9426.chunk.css" as="style"/>
+    <link rel="stylesheet" href="styles.386d9426.chunk.css" tppabs="https://www.xiaoxizn.com/_next/static/css/styles.386d9426.chunk.css" data-n-g=""/>
+    <link rel="preload" href="/_next/static/css/e4a515d5bd50f2f6887d9e8690ea05ce173d7949_CSS.7873b206.chunk.css" as="style"/>
+    <link rel="stylesheet" href="e4a515d5bd50f2f6887d9e8690ea05ce173d7949_CSS.7873b206.chunk.css" 
+       tppabs="https://www.xiaoxizn.com/_next/static/css/e4a515d5bd50f2f6887d9e8690ea05ce173d7949_CSS.7873b206.chunk.css" data-n-p=""/>
+    <link rel="preload" href="/_next/static/css/918cfd35d285391afb294000ec5efc889697d31f_CSS.14f71b0c.chunk.css" as="style"/>
+    <link rel="stylesheet" href="918cfd35d285391afb294000ec5efc889697d31f_CSS.14f71b0c.chunk.css" 
+       tppabs="https://www.xiaoxizn.com/_next/static/css/918cfd35d285391afb294000ec5efc889697d31f_CSS.14f71b0c.chunk.css" data-n-p=""/>
+    <link rel="preload" href="/_next/static/css/d9ceec7bb4db0d06b971f0286aa744ea9796ea0b_CSS.26e6a3a2.chunk.css" as="style"/>
+    <link rel="stylesheet" href="d9ceec7bb4db0d06b971f0286aa744ea9796ea0b_CSS.26e6a3a2.chunk.css" 
+       tppabs="https://www.xiaoxizn.com/_next/static/css/d9ceec7bb4db0d06b971f0286aa744ea9796ea0b_CSS.26e6a3a2.chunk.css" data-n-p=""/>
+    <noscript data-n-css="">
+    </noscript><link rel="preload" href="/_next/static/chunks/webpack-147ea3ada7109f6dc0bb.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/framework.3519294afa6a9ab53973.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/7f90c95953ad510d29f5595efa8f70f68fa63c5d.ed31d119e00c63bd5bf1.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/main-7d629d506d1c779f87cb.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/styles.f1f22ec43c140f0350d6.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/pages/_app-97e663b3da7f5435a804.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/aec7d165.8368e51c27c2b891c189.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/75fc9c18.851b46342beeff380cfd.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/1db98c6b3fc182c851aad06fc87016b0554d31b8.b5f0b34939b29dd151ce.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/e4a515d5bd50f2f6887d9e8690ea05ce173d7949_CSS.81d3755a1df95fed9f2f.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/2998a480a2c8eeb00e99a4b6aa543014a78edd33.9d98aca4daca0eb86031.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/55abfb30b97463a7c24c8656965f8755234296dc.f73280c3f3d5d8c8f6d5.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/5a035fec5f86b4905b7b51d4ed7b56ade59bfd32.72eeda41ef99263fa0df.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/64aa9c16e8692aa4512270bd656f396348d0becd.cdf3cc7d5b22e89b7f34.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/918cfd35d285391afb294000ec5efc889697d31f.6b61325ad9b8b4a95ce8.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/918cfd35d285391afb294000ec5efc889697d31f_CSS.8e0edd9dd9176433ce94.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/26fa3185065d6f369647cacf68548824e9c117f2.f794c82e5360b84ec1bb.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/c668247f5ee2925ab1038fb0ee5bf1211bc7a036.6b7801a243c9fd61dbf7.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/b8befa6be287d72e32e915866f93b164fd3a970d.5922092eac5664367cb4.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/d9ceec7bb4db0d06b971f0286aa744ea9796ea0b.89a2f4faf50f6527c922.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/d9ceec7bb4db0d06b971f0286aa744ea9796ea0b_CSS.0da962408965947cb7ef.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/f34e51bb6c2263378fad3bb0057618523c2e0d89.14e17617c85c1e159bcc.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/pages/recommender-upload-b07921954765144d6377.js" as="script"/>
+  </head><body><div id="__next">
+    <div class="recommender-upload-div">
+      <div id="header" class="header">
+        <div id="header-row" class="ant-row header-row">
+          <div class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-6 ant-col-lg-8 ant-col-xl-6 ant-col-xxl-4">
+            <a id="logo" href="index.html" tppabs="https://www.xiaoxizn.com/"><img src="images/xiaodaobang.png" tppabs="" alt="logo"/>
+              <span>校导帮</span
+                ></a></div>
+                <div class="ant-col ant-col-xs-0 ant-col-sm-0 ant-col-md-18 ant-col-lg-16 ant-col-xl-18 ant-col-xxl-20">
+                  <div class="header-meta">
+    <div id="preview">
+    <a class="common-button common-button-dark" a href="index.htm" style="margin-right:12px" >人岗匹配体验</a>
+    </div>
+    <div id="preview">
+    <a class="common-button common-button-dark" a href="lianxiwomen.html" style="margin-right:12px">预约产品演示</a>
+    </div>
+    <div id="preview">
+    <a class="common-button common-button-dark" a href="index.html" style="margin-right:12px">首页</a>
+    </div>
+    <div id="menu">
+    <div class="dropdown-menu ant-dropdown-trigger" a href="index.html"><a></a></div>
+    <div class="dropdown-menu ant-dropdown-trigger"><a></a></div>
+    <div class="dropdown-menu ant-dropdown-trigger" a href="index.html"><a></a></div>
+    </div></div></div></div></div>
+    <div class="header-empty-section"></div>
+    <div style="height:100%">
+    <div class="upload-div">
+    <h1 class="upload-div-header">人岗匹配体验</h1>
+    <div class="recommender-upload-section">
+    <div class="recommender-upload-section-input">
+    <div class="recomender-input-form-div">
+    <form class="ant-form ant-form-horizontal recommender-input-form">
+    <div class="recommender-input-form-row">
+    <div class="recommender-input-form-name">
+    <h5>Position name</h5>
+    </div><div class="recommender-input-form-value">
+    <div class="ant-row ant-form-item">
+    <div class="ant-col ant-form-item-control-wrapper">
+    <div class="ant-form-item-control has-success">
+    <span class="ant-form-item-children">
+    <input type="text" placeholder="" 
+      value="machine learning engineer" 
+      onchange="myFunction()"
+      id="job_title" 
+      data-__meta="[object Object]"
+      data-__field="[object Object]" 
+    class="ant-input ant-input-lg"/>
+    </span></div></div></div></div></div>
+    <div class="recommender-input-form-row"><div class="recommender-input-form-name">
+    <h5>Job description</h5>
+    </div>
+    <div class="recommender-input-form-value">
+    <div class="ant-row ant-form-item">
+    <div class="ant-col ant-form-item-control-wrapper">
+    <div class="ant-form-item-control has-success">
+    <span class="ant-form-item-children">
+    <textarea placeholder="" data-__meta="[object Object]" data-__field="[object Object]" class="ant-input" style="min-height:200px;max-height: 300px;max-width:500px;">Qualifications:
+
+1. Bachelor degree or above, major in computer, communication, electronics, automation and other related majors
+
+2. More than one year of project development experience in machine vision and image processing industry
+
+3. Proficient in the principles of image processing algorithms, proficient in OpenCV, familiar with visual algorithm libraries and tools such as Halcon
+
+4. Proficient in C++/C# programming language
+
+5. Deep understanding and application experience of image recognition algorithm is preferred
+
+6. Strong coordination and communication skills, analytical problem-solving skills and teamwork spirit
+
+7. Familiarity with neural networks, support vector machines, deep learning, etc. is preferred
+2. Familiar with mainstream machine learning algorithms, and proficient in using deep learning frameworks such as TensorFlow and Caffe;</textarea></span></div></div></div></div></div>
+<div class="recommender-input-form-submit-row">
+<div class="ant-row ant-form-item">
+<div class="ant-col ant-form-item-control-wrapper">
+<div class="ant-form-item-control">
+<div type="submit" class="common-button ant-btn-primary" onclick="myFunction()">
+<span>Offer</span>
+</div>
+</div></div></div></div></form></div>
+<div class="recommender-upload-warnning">Note: The names and data of the talents returned by the job matching experience are fictitious.</div>
+</div><div class="recommender-upload-section-result" >
+<div class="recommender-result-form-div" id="visible" style="display: none;">
+  <div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text11" class="text-success" style="color: rgb(13, 78, 177);">语音/视频/图形算法开发，人脸检测与识别，机器学习</h2>
+      <h4 id="resume-text12" class="text-success" style="color: rgb(5, 164, 238);">汪永莉 | 硕士 | 5年工作经验</h4>
+      <h4>⭐⭐⭐⭐⭐</h4>
+      <h5 id="resume-text13" class="text-success" style="color: rgb(19, 21, 22);">·新加坡南洋理工大学 | 语音/视频/图形算法开发，人脸检测与识别，机器学习</h5>
+      <h5 id="resume-text14" class="text-success" style="color: rgb(19, 21, 22);">·河北工业大学 | 信息与计算科学</h5>
+    </div>
+    </div></div>
+ <div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text21" style="color: rgb(13, 78, 177);">机器学习算法工程师</h2>
+      <h4 id="resume-text22" style="color: rgb(5, 164, 238);">赵元耀 | 硕士 | 4年工作经验</h4>
+      <h4>⭐⭐⭐⭐⭐</h4>
+      <h5 id="resume-text23" style="color: rgb(19, 21, 22);">·杭州阜博通影音传播科技有限公司 | 机器学习算法工程师</h5>
+      <h5 id="resume-text24" style="color: rgb(19, 21, 22);">·西安电子科技大学 | 电子信息工程</h5>
+    </div>
+    </div></div>
+
+<div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text31" style="color: rgb(13, 78, 177);">ISP算法工程师</h2>
+      <h4 id="resume-text32" style="color: rgb(5, 164, 238);">宋苏振 | 硕士 | 6年工作经验</h4>
+      <h4>⭐⭐⭐⭐⭐</h4>
+      <h5 id="resume-text33" style="color: rgb(19, 21, 22);">·深圳蓝盾科技有限公司 | ISP算法工程师</h5>
+      <h5 id="resume-text34" style="color: rgb(19, 21, 22);">·复旦大学 | 微电子学</h5>
+    </div>
+    </div></div>
+
+  <div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text41" style="color: rgb(13, 78, 177);">图像算法工程师</h2>
+      <h4 id="resume-text42" style="color: rgb(5, 164, 238);">宋景海 | 硕士 | 6年工作经验</h4>
+      <h4>⭐⭐⭐⭐⭐</h4>
+      <h5 id="resume-text43" style="color: rgb(19, 21, 22);">·北京兆维电子(集团)有限责任公司 | 图像算法工程师</h5>
+      <h5 id="resume-text44" style="color: rgb(19, 21, 22);">·北京航空航天大学 | 智能科学与技术</h5>
+    </div>
+    </div></div>
+    
+    <div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text51" style="color: rgb(13, 78, 177);">高级算法工程师</h2>
+      <h4 id="resume-text52" style="color: rgb(5, 164, 238);">王泽萍 | 博士 | 11年工作经验</h4>
+      <h4>⭐⭐⭐⭐⭐</h4>
+      <h5 id="resume-text53" style="color: rgb(19, 21, 22);">·威望科技（苏州）有限公司 | 高级算法工程师</h5>
+      <h5 id="resume-text54" style="color: rgb(19, 21, 22);">·上海交通大学 | 电子信息科学与技术</h5>
+    </div>
+    </div></div>
+
+<div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text61" style="color: rgb(13, 78, 177);">高级算法工程师</h2>
+      <h4 id="resume-text62" style="color: rgb(5, 164, 238);">倪艳锋 | 硕士 | 9年工作经验</h4>
+      <h4>⭐⭐⭐⭐⭐</h4>
+      <h5 id="resume-text63" style="color: rgb(19, 21, 22);">·北京英特威视科技有限公司 | 高级算法工程师</h5>
+      <h5 id="resume-text64" style="color: rgb(19, 21, 22);">·电子科技大学 | 光电信息工程</h5>
+    </div>
+    </div></div>
+
+<div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text71" style="color: rgb(13, 78, 177);">算法工程师</h2>
+      <h4 id="resume-text72" style="color: rgb(5, 164, 238);">张蓓兰 | 博士 | 4年工作经验</h4>
+      <h4>⭐⭐⭐⭐</h4>
+      <h5 id="resume-text73" style="color: rgb(19, 21, 22);">·深圳市宇恒互动科技开发有限公司 | 算法工程师</h5>
+      <h5 id="resume-text74" style="color: rgb(19, 21, 22);">·哈尔滨工业大学 | 电子科学与技术</h5>
+    </div>
+    </div></div>
+    
+<div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text81" style="color: rgb(13, 78, 177);">GSM&amp;SRAN算法工程师</h2>
+      <h4 id="resume-text82" style="color: rgb(5, 164, 238);">杜少芳 | 硕士 | 10年工作经验</h4>
+      <h4>⭐⭐⭐⭐</h4>
+      <h5 id="resume-text83" style="color: rgb(19, 21, 22);">·华为技术有限公司 | GSM&SRAN算法工程师</h5>
+      <h5 id="resume-text84" style="color: rgb(19, 21, 22);">·湖北民族学院 | 数学与应用数学</h5>
+    </div>
+    </div></div>
+    
+    <div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text91" style="color: rgb(13, 78, 177);">GSM&amp;SRAN算法工程师</h2>
+      <h4 id="resume-text92" style="color: rgb(5, 164, 238);">杜少芳 | 硕士 | 10年工作经验</h4>
+      <h4>⭐⭐⭐⭐</h4>
+      <h5 id="resume-text93" style="color: rgb(19, 21, 22);">·华为技术有限公司 | GSM&SRAN算法工程师</h5>
+      <h5 id="resume-text94" style="color: rgb(19, 21, 22);">·湖北民族学院 | 数学与应用数学</h5>
+    </div>
+    </div></div>
+ 
+    <div class="resumes-list">
+    <div class="resume-single">
+    <div class="resume-single-basic-info-original">
+      <h2 id="resume-text01" style="color: rgb(13, 78, 177);">GSM&amp;高级算法工程师</h2>
+      <h4 id="resume-text02" style="color: rgb(5, 164, 238);">谢惠辉 | 硕士 | 11年工作经验</h4>
+      <h4>⭐⭐⭐⭐</h4>
+      <h5 id="resume-text03" style="color: rgb(19, 21, 22);">·虹软 | 高级算法工程师</h5>
+      <h5 id="resume-text04" style="color: rgb(19, 21, 22);">·华中科技大学 | 模式识别与智能控制系统</h5>
+    </div>
+    </div></div>
+</div></div></div></div>
+<div class="copyright-area pt-25 pb-20">
+            <div class="container">
+                <div class="row">
+  <h2 align="center" class="white-color"><a href="https://beian.miit.gov.cn">校导帮（南京）科技创业有限公司 版权所有© 2020-2022 | 苏ICP备2022029741号</h2>
+              </div>
+  </div>
+                    <div class="col-md-6">
+                        <div class="footer-social text-left text-md-right d-xl-none">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+    </div>
+</html>
+<!DOCTYPE html>
+<html>
+<script>
+//表替1
+  const text11 ='机器学习算法工程师'
+  const text12 ='汪*莉 | 硕士 | 5年工作经验'
+  const text13 ='·新加坡南洋理工大学 | 语音/视频/图形算法开发，人脸检测与识别，机器学习'
+  const text14 ='·河北工业大学 | 信息与计算科学'
+//表替2
+  const text21 ='机器学习算法工程师'
+  const text22 ='赵*耀 | 硕士 | 4年工作经验'
+  const text23 ='杭州阜博通影音传播科技有限公司 | 机器学习算法工程师'
+  const text24 ='西安电子科技大学 | 电子信息工程'
+//表替3
+  const text31 ='ISP算法工程师'
+  const text32 ='宋*振 | 硕士 | 6年工作经验'
+  const text33 ='深圳蓝盾科技有限公司 | ISP算法工程师'
+  const text34 ='复旦大学 | 微电子学'
+//表替4
+  const text41 ='图像算法工程师'
+  const text42 ='宋*海 | 硕士 | 6年工作经验'
+  const text43 ='北京兆维电子(集团)有限责任公司 | 图像算法工程师'
+  const text44 ='北京航空航天大学 | 智能科学与技术'
+//表替5
+  const text51 ='图像处理算法工程师'
+  const text52 ='张*岚 | 博士 | 5年工作经验'
+  const text53 ='浙江红相科技股份有限公司 | 图像处理算法工程师'
+  const text54 ='哈尔滨工业大学 | 通信与信息系统'
+//表替6
+  const text61 ='高级算法工程师'
+  const text62 ='王*萍 | 博士 | 11年工作经验'
+  const text63 ='威望科技（苏州）有限公司 | 高级算法工程师'
+  const text64 ='上海交通大学 | 电子信息科学与技术'
+//表替7
+  const text71 ='高级算法工程师'
+  const text72 ='倪*锋 | 硕士 | 9年工作经验'
+  const text73 ='北京英特威视科技有限公司 | 高级算法工程师'
+  const text74 ='电子科技大学 | 光电信息工程'
+//表替8
+  const text81 ='算法工程师'
+  const text82 ='张*兰 | 博士 | 4年工作经验'
+  const text83 ='深圳市宇恒互动科技开发有限公司 | 算法工程师'
+  const text84 ='哈尔滨工业大学 | 电子科学与技术'
+//表替9
+  const text91 ='GSM&SRAN算法工程师'
+  const text92 ='杜*芳 | 硕士 | 10年工作经验'
+  const text93 ='华为技术有限公司 | GSM&SRAN算法工程师'
+  const text94 ='湖北民族学院 | 数学与应用数学'
+//表替0
+  const text01 ='高级算法工程师'
+  const text02 ='谢*辉 | 硕士 | 11年工作经验'
+  const text03 ='虹软 | 高级算法工程师'
+  const text04 ='华中科技大学 | 模式识别与智能控制系统'
+
+
+//when 会计 accounting
+//表替1
+  const text011 ='会计'
+  const text012 ='黄*娇 | 博士 | 14年工作经验'
+  const text013 ='烟台正海集团有限公司 | 会计'
+  const text014 ='吉林大学 | 工商管理'
+//表替2
+  const text021 ='会计/会计师'
+  const text022 ='张*瑜 | 博士 | 5年工作经验'
+  const text023 ='惠州市金艺机械有限公司 | 会计/会计师'
+  const text024 ='浙江大学 | 金融学'
+//表替3
+  const text031 ='会计'
+  const text032 ='王*娟 | 博士 | 11年工作经验'
+  const text033 ='ONE ON TECHNOLOGY | 会计'
+  const text034 ='美国林肯大学 LINCOLN UNIVERSITY USA | 工商管理 BUSINESS ADMINISTRATION'
+//表替4
+  const text041 ='会计'
+  const text042 ='邹*娟 | 博士 | 8年工作经验'
+  const text043 ='郑州汇丰财务管理有限公司 | 会计'
+  const text044 ='厦门大学 | 会计学'
+//表替5
+  const text051 ='会计/会计师'
+  const text052 ='徐*洪 | 硕士 | 4年工作经验'
+  const text053 ='华泰保险有限公司 | 会计/会计师'
+  const text054 ='四川大学 | 财务管理'
+//表替6
+  const text061 ='会计'
+  const text062 ='李*玲 | 硕士 | 6年工作经验'
+  const text063 ='西安鼎合餐饮管理有限公司 | 会计'
+  const text064 ='北京大学 | 日语'
+//表替7
+  const text071 ='会计'
+  const text072 ='梁*沁 | 硕士 | 13年工作经验'
+  const text073 ='西安仁仁药业有限公司 | 会计'
+  const text074 ='哈尔滨工程学院 | 会计学'
+//表替8
+  const text081 ='会计兼出纳'
+  const text082 ='萧*勇 | 硕士 | 6年工作经验'
+  const text083 ='大连鑫汇文化交易所有限公司 | 会计兼出纳'
+  const text084 ='悉尼大学 | 金融学'
+//表替9
+  const text091 ='会计'
+  const text092 ='孟*琪 | 硕士 | 8年工作经验'
+  const text093 ='石家庄常山纺织股份有限公司 | 会计'
+  const text094 ='中山大学 | 管理科学与工程'
+//表替0
+  const text001 ='会计'
+  const text002 ='孙*旭 | 硕士 | 14年工作经验'
+  const text003 ='杜邦（中国）投资有限公司 | 会计'
+  const text004 ='吉林大学 | 会计学'
+
+
+
+//when 工程师 engineer
+//表替1
+  const text111 ='ISP算法工程师'
+  const text112 ='宋*振 | 硕士 | 6年工作经验'
+  const text113 ='深圳蓝盾科技有限公司 | ISP算法工程师'
+  const text114 ='复旦大学 | 微电子学'
+//表替2
+  const text121 ='图像算法工程师'
+  const text122 ='宋*海 | 硕士 | 6年工作经验'
+  const text123 ='北京兆维电子(集团)有限责任公司 | 图像算法工程师'
+  const text124 ='北京航空航天大学 | 智能科学与技术'
+//表替3
+  const text131 ='高级算法工程师'
+  const text132 ='王*萍 | 博士 | 11年工作经验'
+  const text133 ='威望科技（苏州）有限公司 | 高级算法工程师'
+  const text134 ='上海交通大学 | 电子信息科学与技术'
+//表替4
+  const text141 ='图像处理算法工程师'
+  const text142 ='张*岚 | 博士 | 5年工作经验'
+  const text143 ='浙江红相科技股份有限公司 | 图像处理算法工程师'
+  const text144 ='哈尔滨工业大学 | 通信与信息系统'
+//表替5
+  const text151 ='高级算法工程师'
+  const text152 ='倪*锋 | 硕士 | 9年工作经验'
+  const text153 ='北京英特威视科技有限公司 | 高级算法工程师'
+  const text154 ='电子科技大学 | 光电信息工程'
+//表替6
+  const text161 ='算法工程师'
+  const text162 ='张*兰 | 博士 | 4年工作经验'
+  const text163 ='深圳市宇恒互动科技开发有限公司 | 算法工程师'
+  const text164 ='哈尔滨工业大学 | 电子科学与技术'
+//表替7
+  const text171 ='高级算法工程师'
+  const text172 ='谢*辉 | 硕士 | 11年工作经验'
+  const text173 ='虹软 | 高级算法工程师'
+  const text174 ='华中科技大学 | 模式识别与智能控制系统'
+//表替8
+  const text181 ='图像处理算法工程师'
+  const text182 ='王*田 | 硕士 | 3年工作经验'
+  const text183 ='北京大恒图像 | 图像处理算法工程师'
+  const text184 ='北京航空航天大学 | 通信工程'
+//表替9
+  const text191 ='语音/视频/图形算法开发，人脸检测与识别，机器学习'
+  const text192 ='汪*莉 | 硕士 | 5年工作经验'
+  const text193 ='新加坡南洋理工大学 | 语音/视频/图形算法开发，人脸检测与识别，机器学习'
+  const text194 ='河北工业大学 | 信息与计算科学'
+//表替0
+  const text101 ='算法研发中心'
+  const text102 ='董*莉 | 硕士 | 11年工作经验'
+  const text103 ='联合信源数字音视频技术（北京）有限公司 | 算法研发中心'
+  const text104 ='北京理工大学 | 光电信息工程'
+
+
+
+//when 程序员 programmer
+//表替1
+  const text211 ='RNC算法工程师'
+  const text212 ='蔡*华 | 博士 | 6年工作经验'
+  const text213 ='深圳蓝盾科技有限公司 | ISP算法工程师'
+  const text214 ='复旦大学 | 微电子学'
+//表替2
+  const text221 ='控制算法工程师'
+  const text222 ='李*星 | 硕士 | 9年工作经验'
+  const text223 ='北京兆维电子(集团)有限责任公司 | 图像算法工程师'
+  const text224 ='北京航空航天大学 | 智能科学与技术'
+//表替3
+  const text231 ='图像算法工程师'
+  const text232 ='郝*勇 | 硕士 | 5年工作经验'
+  const text233 ='威望科技（苏州）有限公司 | 高级算法工程师'
+  const text234 ='上海交通大学 | 电子信息科学与技术'
+//表替4
+  const text241 ='图像处理算法工程师'
+  const text242 ='陈*莹 | 硕士 | 4年工作经验'
+  const text243 ='浙江红相科技股份有限公司 | 图像处理算法工程师'
+  const text244 ='哈尔滨工业大学 | 通信与信息系统'
+//表替5
+  const text251 ='图像处理算法工程师'
+  const text252 ='赵*发 | 硕士 | 6年工作经验'
+  const text253 ='北京英特威视科技有限公司 | 高级算法工程师'
+  const text254 ='电子科技大学 | 光电信息工程'
+//表替6
+  const text261 ='算法优化工程师'
+  const text262 ='刘*军 | 硕士 | 11年工作经验'
+  const text263 ='深圳市宇恒互动科技开发有限公司 | 算法工程师'
+  const text264 ='哈尔滨工业大学 | 电子科学与技术'
+//表替7
+  const text271 ='高级算法工程师'
+  const text272 ='王*明 | 硕士 | 4年工作经验'
+  const text273 ='虹软 | 高级算法工程师'
+  const text274 ='华中科技大学 | 模式识别与智能控制系统'
+//表替8
+  const text281 ='图像处理算法工程师'
+  const text282 ='王*田 | 硕士 | 3年工作经验'
+  const text283 ='北京大恒图像 | 图像处理算法工程师'
+  const text284 ='北京航空航天大学 | 通信工程'
+//表替9
+  const text291 ='语音/视频/图形算法开发，人脸检测与识别，机器学习'
+  const text292 ='汪*莉 | 硕士 | 5年工作经验'
+  const text293 ='新加坡南洋理工大学 | 语音/视频/图形算法开发，人脸检测与识别，机器学习'
+  const text294 ='河北工业大学 | 信息与计算科学'
+//表替0
+  const text201 ='算法研发中心'
+  const text202 ='董*莉 | 硕士 | 11年工作经验'
+  const text203 ='联合信源数字音视频技术（北京）有限公司 | 算法研发中心'
+  const text204 ='北京理工大学 | 光电信息工程'
+
+
+//when 数据分析师 data analyst
+//表替1
+  const text311 ='数据分析师'
+  const text312 ='赵*杰 | 硕士 | 4年工作经验'
+  const text313 ='西安数据通信息技术有限公司 | 数据分析师'
+  const text314 ='中国科学技术大学 | 电子信息科学与技术'
+//表替2
+  const text321 ='数据分析师'
+  const text322 ='王*青 | 硕士 | 4年工作经验'
+  const text323 ='金融工场 | 数据分析师(集团)有限责任公司 | 图像算法工程师'
+  const text324 ='上海应用技术学院 | 信息管理与信息系统'
+//表替3
+  const text331 ='数据分析师'
+  const text332 ='王*萍 | 博士 | 11年工作经验'
+  const text333 ='威望科技（苏州）有限公司 | 高级算法工程师'
+  const text334 ='上海交通大学 | 电子信息科学与技术'
+//表替4
+  const text341 ='数据分析师'
+  const text342 ='李*勤 | 本科 | 5年工作经验'
+  const text343 ='福州市烟草公司 | 数据分析师'
+  const text344 ='中央民族大学 | 信息与计算科学'
+//表替5
+  const text351 ='数据分析师'
+  const text352 ='倪*锋 | 硕士 | 9年工作经验'
+  const text353 ='北京英特威视科技有限公司 | 高级算法工程师'
+  const text354 ='山东财经大学 | 电子商务专业（技术类）'
+//表替6
+  const text361 ='数据分析师'
+  const text362 ='张*兰 | 博士 | 4年工作经验'
+  const text363 ='汤森路透 | 数据分析师'
+  const text364 ='哈尔滨工业大学 | 电子科学与技术'
+//表替7
+  const text371 ='数据分析师'
+  const text372 ='罗*翔 | 本科 | 3年工作经验'
+  const text373 ='上海好屋网信息技术有限公司 | 数据分析师'
+  const text374 ='华东师范大学 | 统计学'
+//表替8
+  const text381 ='数据分析师'
+  const text382 ='王*田 | 硕士 | 3年工作经验'
+  const text383 ='北京大恒图像 | 图像处理算法工程师'
+  const text384 ='山东大学 | 数学与应用数学'
+//表替9
+  const text391 ='数据分析师'
+  const text392 ='黄*丰 | 本科 | 5年工作经验'
+  const text393 ='杭州盛锋营销策划有限公司 | 数据分析师'
+  const text394 ='上海交通大学 | 计算机科学与技术'
+//表替0
+  const text301 ='数据分析师'
+  const text302 ='马*宽 | 本科 | 5年工作经验'
+  const text303 ='兴城市奢奇制衣有限公司 | 数据分析师'
+  const text304 ='中央民族大学 | 信息与计算科学'
+
+
+
+//when 移动通信工程师 mobile communications engineer
+//表替1
+  const text411 ='移动通信工程师'
+  const text412 ='贾*心 | 博士 | 12年工作经验'
+  const text413 ='上海贝尔阿尔卡特股份有限公司 | 移动通信工程师'
+  const text414 ='北京航空航天大学 | 通信工程'
+//表替2
+  const text421 ='移动通信工程师'
+  const text422 ='罗*杰 | 硕士 | 12年工作经验'
+  const text423 ='中国移动通信集团湖北分公司 | 移动通信工程师'
+  const text424 ='武汉大学 | 电子信息科学与技术'
+//表替3
+  const text431 ='移动通信工程师'
+  const text432 ='李*宇 | 硕士 | 9年工作经验'
+  const text433 ='黑龙江昊天通信工程有限公司 | 移动通信工程师'
+  const text434 ='上海交通大学 | 电子信息科学与技术'
+//表替4
+  const text441 ='移动通信工程师'
+  const text442 ='李*泉 | 博士 | 13年工作经验'
+  const text443 ='福州市烟草公司 | 移动通信工程师'
+  const text444 ='南京邮电大学 | 电子信息工程'
+//表替5
+  const text451 ='移动通信工程师'
+  const text452 ='王*青 | 硕士 | 10年工作经验'
+  const text453 ='京信通信河北分公司 | 无线/射频通信工程师'
+  const text454 ='西安交通大学 | 电子科学与技术'
+//表替6
+  const text461 ='移动通信工程师'
+  const text462 ='张*东 | 硕士 | 6年工作经验'
+  const text463 ='北京爱可生通信技术有限公司 | 无线/射频通信工程师'
+  const text464 ='东北大学 | 通信工程'
+//表替7
+  const text471 ='移动通信工程师'
+  const text472 ='阎*霖 | 硕士 | 9年工作经验'
+  const text473 ='上海好屋网信息技术有限公司 | 移动通信工程师'
+  const text474 ='华东师范大学 | 统计学'
+//表替8
+  const text481 ='移动通信工程师'
+  const text482 ='王*廉 | 硕士 | 6年工作经验'
+  const text483 ='广铁集团广州通信段 | 无线/射频通信工程师'
+  const text484 ='西安交通大学 | 电子科学与技术'
+//表替9
+  const text491 ='移动通信工程师'
+  const text492 ='张*东 | 硕士 | 9年工作经验'
+  const text493 ='北京爱可生通信技术有限公司 | 无线/射频通信工程师'
+  const text494 ='哈尔滨工业大学 | 通信与信息系统'
+//表替0
+  const text401 ='移动通信工程师'
+  const text402 ='赵*莲 | 硕士 | 11年工作经验'
+  const text403 ='黑龙江昊天通信工程有限公司 | 移动通信工程师'
+  const text404 ='天津大学 | 通信工程'
+
+
+
+//when 分析师 analyst
+//表替1
+  const text511 ='证券分析师'
+  const text512 ='阎*熙 | 本科 | 11年工作经验'
+  const text513 ='北京华联综超股份有限公司 | 证券分析师'
+  const text514 ='复旦大学 | 数理基础科学'
+//表替2
+  const text521 ='证券分析师'
+  const text522 ='程*兰 | 本科 | 10年工作经验'
+  const text523 ='新财富科技咨询有限公司 | 证券分析师'
+  const text524 ='南开大学 | 金融学'
+//表替3
+  const text531 ='证券分析师'
+  const text532 ='黄*娇 | 博士 | 6年工作经验'
+  const text533 ='上海恒生聚源数据服务有限公司 | 证券分析/金融研究'
+  const text534 ='吉林大学 | 工商管理'
+//表替4
+  const text541 ='证券分析师'
+  const text542 ='谭*英 | 硕士 | 6年工作经验'
+  const text543 ='天相投资顾问有限公司天津分公司 | 证券分析/金融研究员'
+  const text544 ='美国德州农商大学 | 金融学'
+//表替5
+  const text551 ='行业研究员'
+  const text552 ='李*凤 | 博士 | 7年工作经验'
+  const text553 ='CSST | 行业研究员'
+  const text554 ='上海交通大学 | 计算机科学与技术'
+//表替6
+  const text561 ='证券分析/金融研究'
+  const text562 ='沿*蒙 | 硕士 | 9年工作经验'
+  const text563 ='凝聚态投资有限公司 | 证券分析/金融研究'
+  const text564 ='南开大学 | 经济学'
+//表替7
+  const text571 ='证券分析/金融研究'
+  const text572 ='张*满 | 硕士 | 5年工作经验'
+  const text573 ='日信证券有限责任公司 | 证券分析/金融研究'
+  const text574 ='中国人民大学 | 金融学'
+//表替8
+  const text581 ='证券分析/金融研究'
+  const text582 ='罗*娜 | 硕士 | 5年工作经验'
+  const text583 ='中山证券 | 证券分析/金融研究'
+  const text584 ='北京师范大学 | 植物生物技术'
+//表替9
+  const text591 ='证券分析/金融研究'
+  const text592 ='李*方 | 硕士 | 8年工作经验'
+  const text593 ='北京爱可生通信技术有限公司 | 无线/射频通信工程师'
+  const text594 ='哈尔滨工业大学 | 通信与信息系统'
+//表替0
+  const text501 ='证券分析/金融研究'
+  const text502 ='罗*娜 | 硕士 | 5年工作经验'
+  const text503 ='中山证券 | 证券分析/金融研究'
+  const text504 ='北京师范大学 | 植物生物技术'
+
+
+
+
+//when 证券分析师 mobile communications engineer
+//表替1
+const text611 ='证券分析师'
+  const text612 ='阎*熙 | 本科 | 11年工作经验'
+  const text613 ='北京华联综超股份有限公司 | 证券分析师'
+  const text614 ='复旦大学 | 数理基础科学'
+//表替2
+  const text621 ='证券分析师'
+  const text622 ='程*兰 | 本科 | 10年工作经验'
+  const text623 ='新财富科技咨询有限公司 | 证券分析师'
+  const text624 ='南开大学 | 金融学'
+//表替3
+  const text631 ='证券分析师'
+  const text632 ='黄*娇 | 博士 | 6年工作经验'
+  const text633 ='上海恒生聚源数据服务有限公司 | 证券分析/金融研究'
+  const text634 ='吉林大学 | 工商管理'
+//表替4
+  const text641 ='证券分析师'
+  const text642 ='谭*英 | 硕士 | 6年工作经验'
+  const text643 ='天相投资顾问有限公司天津分公司 | 证券分析/金融研究员'
+  const text644 ='美国德州农商大学 | 金融学'
+//表替5
+  const text651 ='行业研究员'
+  const text652 ='李*凤 | 博士 | 7年工作经验'
+  const text653 ='CSST | 行业研究员'
+  const text654 ='上海交通大学 | 计算机科学与技术'
+//表替6
+  const text661 ='证券分析/金融研究'
+  const text662 ='沿*蒙 | 硕士 | 9年工作经验'
+  const text663 ='凝聚态投资有限公司 | 证券分析/金融研究'
+  const text664 ='南开大学 | 经济学'
+//表替7
+  const text671 ='证券分析/金融研究'
+  const text672 ='张*满 | 硕士 | 5年工作经验'
+  const text673 ='日信证券有限责任公司 | 证券分析/金融研究'
+  const text674 ='中国人民大学 | 金融学'
+//表替8
+  const text681 ='证券分析/金融研究'
+  const text682 ='罗*娜 | 硕士 | 5年工作经验'
+  const text683 ='中山证券 | 证券分析/金融研究'
+  const text684 ='北京师范大学 | 植物生物技术'
+//表替9
+  const text691 ='证券分析/金融研究'
+  const text692 ='李*方 | 硕士 | 8年工作经验'
+  const text693 ='北京爱可生通信技术有限公司 | 无线/射频通信工程师'
+  const text694 ='哈尔滨工业大学 | 通信与信息系统'
+//表替0
+  const text601 ='证券分析/金融研究'
+  const text602 ='罗*娜 | 硕士 | 5年工作经验'
+  const text603 ='中山证券 | 证券分析/金融研究'
+  const text604 ='北京师范大学 | 植物生物技术'
+
+
+
+  function myFunction()
+     
+   {
+    document.getElementById("visible").style="display:'';"
+//表1
+    document.getElementById("resume-text11").innerText = text11;
+    document.getElementById("resume-text12").innerText = text12;
+    document.getElementById("resume-text13").innerText = text13;
+    document.getElementById("resume-text14").innerText = text14;
+//表2
+    document.getElementById("resume-text21").innerText = text21;
+    document.getElementById("resume-text22").innerText = text22;
+    document.getElementById("resume-text23").innerText = text23;
+    document.getElementById("resume-text24").innerText = text24;
+//表3
+    document.getElementById("resume-text31").innerText = text31;
+    document.getElementById("resume-text32").innerText = text32;
+    document.getElementById("resume-text33").innerText = text33;
+    document.getElementById("resume-text34").innerText = text34;
+//表4
+    document.getElementById("resume-text41").innerText = text41;
+    document.getElementById("resume-text42").innerText = text42;
+    document.getElementById("resume-text43").innerText = text43;
+    document.getElementById("resume-text44").innerText = text44;
+//表5
+    document.getElementById("resume-text51").innerText = text51;
+    document.getElementById("resume-text52").innerText = text52;
+    document.getElementById("resume-text53").innerText = text53;
+    document.getElementById("resume-text54").innerText = text54;
+//表6
+    document.getElementById("resume-text61").innerText = text61;
+    document.getElementById("resume-text62").innerText = text62;
+    document.getElementById("resume-text63").innerText = text63;
+    document.getElementById("resume-text64").innerText = text64;
+//表7
+    document.getElementById("resume-text71").innerText = text71;
+    document.getElementById("resume-text72").innerText = text72;
+    document.getElementById("resume-text73").innerText = text73;
+    document.getElementById("resume-text74").innerText = text74;
+//表8
+    document.getElementById("resume-text81").innerText = text81;
+    document.getElementById("resume-text82").innerText = text82;
+    document.getElementById("resume-text83").innerText = text83;
+    document.getElementById("resume-text84").innerText = text84;
+//表9
+    document.getElementById("resume-text91").innerText = text91;
+    document.getElementById("resume-text92").innerText = text92;
+    document.getElementById("resume-text93").innerText = text93;
+    document.getElementById("resume-text94").innerText = text94;
+//表0
+    document.getElementById("resume-text01").innerText = text01;
+    document.getElementById("resume-text02").innerText = text02;
+    document.getElementById("resume-text03").innerText = text03;
+    document.getElementById("resume-text04").innerText = text04;
+  
+  const input_text = document.getElementById("job_title").value;
+    console.log(input_text)
+    if(input_text === 'accounting')
+    {
+  
+//表1
+    document.getElementById("resume-text11").innerText = text011;
+    document.getElementById("resume-text12").innerText = text012;
+    document.getElementById("resume-text13").innerText = text013;
+    document.getElementById("resume-text14").innerText = text014;
+//表2
+    document.getElementById("resume-text21").innerText = text021;
+    document.getElementById("resume-text22").innerText = text022;
+    document.getElementById("resume-text23").innerText = text023;
+    document.getElementById("resume-text24").innerText = text024;
+//表3
+    document.getElementById("resume-text31").innerText = text031;
+    document.getElementById("resume-text32").innerText = text032;
+    document.getElementById("resume-text33").innerText = text033;
+    document.getElementById("resume-text34").innerText = text034;
+//表4
+    document.getElementById("resume-text41").innerText = text041;
+    document.getElementById("resume-text42").innerText = text042;
+    document.getElementById("resume-text43").innerText = text043;
+    document.getElementById("resume-text44").innerText = text044;
+//表5
+    document.getElementById("resume-text51").innerText = text051;
+    document.getElementById("resume-text52").innerText = text052;
+    document.getElementById("resume-text53").innerText = text053;
+    document.getElementById("resume-text54").innerText = text054;
+//表6
+    document.getElementById("resume-text61").innerText = text061;
+    document.getElementById("resume-text62").innerText = text062;
+    document.getElementById("resume-text63").innerText = text063;
+    document.getElementById("resume-text64").innerText = text064;
+//表7
+    document.getElementById("resume-text71").innerText = text071;
+    document.getElementById("resume-text72").innerText = text072;
+    document.getElementById("resume-text73").innerText = text073;
+    document.getElementById("resume-text74").innerText = text074;
+//表8
+    document.getElementById("resume-text81").innerText = text081;
+    document.getElementById("resume-text82").innerText = text082;
+    document.getElementById("resume-text83").innerText = text083;
+    document.getElementById("resume-text84").innerText = text084;
+//表9
+    document.getElementById("resume-text91").innerText = text091;
+    document.getElementById("resume-text92").innerText = text092;
+    document.getElementById("resume-text93").innerText = text093;
+    document.getElementById("resume-text94").innerText = text094;
+//表0
+    document.getElementById("resume-text01").innerText = text001;
+    document.getElementById("resume-text02").innerText = text002;
+    document.getElementById("resume-text03").innerText = text003;
+    document.getElementById("resume-text04").innerText = text004;
+    }
+    else if(input_text == 'engineer')
+    {
+//表1
+    document.getElementById("resume-text11").innerText = text111;
+    document.getElementById("resume-text12").innerText = text112;
+    document.getElementById("resume-text13").innerText = text113;
+    document.getElementById("resume-text14").innerText = text114;
+//表2
+    document.getElementById("resume-text21").innerText = text121;
+    document.getElementById("resume-text22").innerText = text122;
+    document.getElementById("resume-text23").innerText = text123;
+    document.getElementById("resume-text24").innerText = text124;
+//表3
+    document.getElementById("resume-text31").innerText = text131;
+    document.getElementById("resume-text32").innerText = text132;
+    document.getElementById("resume-text33").innerText = text133;
+    document.getElementById("resume-text34").innerText = text134;
+//表4
+    document.getElementById("resume-text41").innerText = text141;
+    document.getElementById("resume-text42").innerText = text142;
+    document.getElementById("resume-text43").innerText = text143;
+    document.getElementById("resume-text44").innerText = text144;
+//表5
+    document.getElementById("resume-text51").innerText = text151;
+    document.getElementById("resume-text52").innerText = text152;
+    document.getElementById("resume-text53").innerText = text153;
+    document.getElementById("resume-text54").innerText = text154;
+//表6
+    document.getElementById("resume-text61").innerText = text161;
+    document.getElementById("resume-text62").innerText = text162;
+    document.getElementById("resume-text63").innerText = text163;
+    document.getElementById("resume-text64").innerText = text164;
+//表7
+    document.getElementById("resume-text71").innerText = text171;
+    document.getElementById("resume-text72").innerText = text172;
+    document.getElementById("resume-text73").innerText = text173;
+    document.getElementById("resume-text74").innerText = text174;
+//表8
+    document.getElementById("resume-text81").innerText = text181;
+    document.getElementById("resume-text82").innerText = text182;
+    document.getElementById("resume-text83").innerText = text183;
+    document.getElementById("resume-text84").innerText = text184;
+//表9
+    document.getElementById("resume-text91").innerText = text191;
+    document.getElementById("resume-text92").innerText = text192;
+    document.getElementById("resume-text93").innerText = text193;
+    document.getElementById("resume-text94").innerText = text194;
+//表0
+    document.getElementById("resume-text01").innerText = text101;
+    document.getElementById("resume-text02").innerText = text102;
+    document.getElementById("resume-text03").innerText = text103;
+    document.getElementById("resume-text04").innerText = text104;
+    }
+    else if(input_text == 'programmer')
+    {
+//表1
+    document.getElementById("resume-text11").innerText = text211;
+    document.getElementById("resume-text12").innerText = text212;
+    document.getElementById("resume-text13").innerText = text213;
+    document.getElementById("resume-text14").innerText = text214;
+//表2
+    document.getElementById("resume-text21").innerText = text221;
+    document.getElementById("resume-text22").innerText = text222;
+    document.getElementById("resume-text23").innerText = text223;
+    document.getElementById("resume-text24").innerText = text224;
+//表3
+    document.getElementById("resume-text31").innerText = text231;
+    document.getElementById("resume-text32").innerText = text232;
+    document.getElementById("resume-text33").innerText = text233;
+    document.getElementById("resume-text34").innerText = text234;
+//表4
+    document.getElementById("resume-text41").innerText = text241;
+    document.getElementById("resume-text42").innerText = text242;
+    document.getElementById("resume-text43").innerText = text243;
+    document.getElementById("resume-text44").innerText = text244;
+//表5
+    document.getElementById("resume-text51").innerText = text251;
+    document.getElementById("resume-text52").innerText = text252;
+    document.getElementById("resume-text53").innerText = text253;
+    document.getElementById("resume-text54").innerText = text254;
+//表6
+    document.getElementById("resume-text61").innerText = text261;
+    document.getElementById("resume-text62").innerText = text262;
+    document.getElementById("resume-text63").innerText = text263;
+    document.getElementById("resume-text64").innerText = text264;
+//表7
+    document.getElementById("resume-text71").innerText = text271;
+    document.getElementById("resume-text72").innerText = text272;
+    document.getElementById("resume-text73").innerText = text273;
+    document.getElementById("resume-text74").innerText = text274;
+//表8
+    document.getElementById("resume-text81").innerText = text281;
+    document.getElementById("resume-text82").innerText = text282;
+    document.getElementById("resume-text83").innerText = text283;
+    document.getElementById("resume-text84").innerText = text284;
+//表9
+    document.getElementById("resume-text91").innerText = text291;
+    document.getElementById("resume-text92").innerText = text292;
+    document.getElementById("resume-text93").innerText = text293;
+    document.getElementById("resume-text94").innerText = text294;
+//表0
+    document.getElementById("resume-text01").innerText = text201;
+    document.getElementById("resume-text02").innerText = text202;
+    document.getElementById("resume-text03").innerText = text203;
+    document.getElementById("resume-text04").innerText = text204;
+    }
+    else if(input_text === 'data analyst')
+    {
+//表1
+    document.getElementById("resume-text11").innerText = text311;
+    document.getElementById("resume-text12").innerText = text312;
+    document.getElementById("resume-text13").innerText = text313;
+    document.getElementById("resume-text14").innerText = text314;
+//表2
+    document.getElementById("resume-text21").innerText = text321;
+    document.getElementById("resume-text22").innerText = text322;
+    document.getElementById("resume-text23").innerText = text323;
+    document.getElementById("resume-text24").innerText = text324;
+//表3
+    document.getElementById("resume-text31").innerText = text331;
+    document.getElementById("resume-text32").innerText = text332;
+    document.getElementById("resume-text33").innerText = text333;
+    document.getElementById("resume-text34").innerText = text334;
+//表4
+    document.getElementById("resume-text41").innerText = text341;
+    document.getElementById("resume-text42").innerText = text342;
+    document.getElementById("resume-text43").innerText = text343;
+    document.getElementById("resume-text44").innerText = text344;
+//表5
+    document.getElementById("resume-text51").innerText = text351;
+    document.getElementById("resume-text52").innerText = text352;
+    document.getElementById("resume-text53").innerText = text353;
+    document.getElementById("resume-text54").innerText = text354;
+//表6
+    document.getElementById("resume-text61").innerText = text361;
+    document.getElementById("resume-text62").innerText = text362;
+    document.getElementById("resume-text63").innerText = text363;
+    document.getElementById("resume-text64").innerText = text364;
+//表7
+    document.getElementById("resume-text71").innerText = text371;
+    document.getElementById("resume-text72").innerText = text372;
+    document.getElementById("resume-text73").innerText = text373;
+    document.getElementById("resume-text74").innerText = text374;
+//表8
+    document.getElementById("resume-text81").innerText = text381;
+    document.getElementById("resume-text82").innerText = text382;
+    document.getElementById("resume-text83").innerText = text383;
+    document.getElementById("resume-text84").innerText = text384;
+//表9
+    document.getElementById("resume-text91").innerText = text391;
+    document.getElementById("resume-text92").innerText = text392;
+    document.getElementById("resume-text93").innerText = text393;
+    document.getElementById("resume-text94").innerText = text394;
+//表0
+    document.getElementById("resume-text01").innerText = text301;
+    document.getElementById("resume-text02").innerText = text302;
+    document.getElementById("resume-text03").innerText = text303;
+    document.getElementById("resume-text04").innerText = text304;
+    }
+    else if(input_text === 'mobile communications engineer')
+    {
+//表1
+    document.getElementById("resume-text11").innerText = text411;
+    document.getElementById("resume-text12").innerText = text412;
+    document.getElementById("resume-text13").innerText = text413;
+    document.getElementById("resume-text14").innerText = text414;
+//表2
+    document.getElementById("resume-text21").innerText = text421;
+    document.getElementById("resume-text22").innerText = text422;
+    document.getElementById("resume-text23").innerText = text423;
+    document.getElementById("resume-text24").innerText = text424;
+//表3
+    document.getElementById("resume-text31").innerText = text431;
+    document.getElementById("resume-text32").innerText = text432;
+    document.getElementById("resume-text33").innerText = text433;
+    document.getElementById("resume-text34").innerText = text434;
+//表4
+    document.getElementById("resume-text41").innerText = text441;
+    document.getElementById("resume-text42").innerText = text442;
+    document.getElementById("resume-text43").innerText = text443;
+    document.getElementById("resume-text44").innerText = text444;
+//表5
+    document.getElementById("resume-text51").innerText = text451;
+    document.getElementById("resume-text52").innerText = text452;
+    document.getElementById("resume-text53").innerText = text453;
+    document.getElementById("resume-text54").innerText = text454;
+//表6
+    document.getElementById("resume-text61").innerText = text461;
+    document.getElementById("resume-text62").innerText = text462;
+    document.getElementById("resume-text63").innerText = text463;
+    document.getElementById("resume-text64").innerText = text464;
+//表7
+    document.getElementById("resume-text71").innerText = text471;
+    document.getElementById("resume-text72").innerText = text472;
+    document.getElementById("resume-text73").innerText = text473;
+    document.getElementById("resume-text74").innerText = text474;
+//表8
+    document.getElementById("resume-text81").innerText = text481;
+    document.getElementById("resume-text82").innerText = text482;
+    document.getElementById("resume-text83").innerText = text483;
+    document.getElementById("resume-text84").innerText = text484;
+//表9
+    document.getElementById("resume-text91").innerText = text491;
+    document.getElementById("resume-text92").innerText = text492;
+    document.getElementById("resume-text93").innerText = text493;
+    document.getElementById("resume-text94").innerText = text494;
+//表0
+    document.getElementById("resume-text01").innerText = text401;
+    document.getElementById("resume-text02").innerText = text402;
+    document.getElementById("resume-text03").innerText = text403;
+    document.getElementById("resume-text04").innerText = text404;
+    }
+    else if(input_text === 'analyst')
+    {
+//表1
+    document.getElementById("resume-text11").innerText = text511;
+    document.getElementById("resume-text12").innerText = text512;
+    document.getElementById("resume-text13").innerText = text513;
+    document.getElementById("resume-text14").innerText = text514;
+//表2
+    document.getElementById("resume-text21").innerText = text521;
+    document.getElementById("resume-text22").innerText = text522;
+    document.getElementById("resume-text23").innerText = text523;
+    document.getElementById("resume-text24").innerText = text524;
+//表3
+    document.getElementById("resume-text31").innerText = text531;
+    document.getElementById("resume-text32").innerText = text532;
+    document.getElementById("resume-text33").innerText = text533;
+    document.getElementById("resume-text34").innerText = text534;
+//表4
+    document.getElementById("resume-text41").innerText = text541;
+    document.getElementById("resume-text42").innerText = text542;
+    document.getElementById("resume-text43").innerText = text543;
+    document.getElementById("resume-text44").innerText = text544;
+//表5
+    document.getElementById("resume-text51").innerText = text551;
+    document.getElementById("resume-text52").innerText = text552;
+    document.getElementById("resume-text53").innerText = text553;
+    document.getElementById("resume-text54").innerText = text554;
+//表6
+    document.getElementById("resume-text61").innerText = text561;
+    document.getElementById("resume-text62").innerText = text562;
+    document.getElementById("resume-text63").innerText = text563;
+    document.getElementById("resume-text64").innerText = text564;
+//表7
+    document.getElementById("resume-text71").innerText = text571;
+    document.getElementById("resume-text72").innerText = text572;
+    document.getElementById("resume-text73").innerText = text573;
+    document.getElementById("resume-text74").innerText = text574;
+//表8
+    document.getElementById("resume-text81").innerText = text581;
+    document.getElementById("resume-text82").innerText = text582;
+    document.getElementById("resume-text83").innerText = text583;
+    document.getElementById("resume-text84").innerText = text584;
+//表9
+    document.getElementById("resume-text91").innerText = text591;
+    document.getElementById("resume-text92").innerText = text592;
+    document.getElementById("resume-text93").innerText = text593;
+    document.getElementById("resume-text94").innerText = text594;
+//表0
+    document.getElementById("resume-text01").innerText = text501;
+    document.getElementById("resume-text02").innerText = text502;
+    document.getElementById("resume-text03").innerText = text503;
+    document.getElementById("resume-text04").innerText = text504;
+    }
+    else if(input_text === 'data analyst')
+    {
+//表1
+    document.getElementById("resume-text11").innerText = text611;
+    document.getElementById("resume-text12").innerText = text612;
+    document.getElementById("resume-text13").innerText = text613;
+    document.getElementById("resume-text14").innerText = text614;
+//表2
+    document.getElementById("resume-text21").innerText = text621;
+    document.getElementById("resume-text22").innerText = text622;
+    document.getElementById("resume-text23").innerText = text623;
+    document.getElementById("resume-text24").innerText = text624;
+//表3
+    document.getElementById("resume-text31").innerText = text631;
+    document.getElementById("resume-text32").innerText = text632;
+    document.getElementById("resume-text33").innerText = text633;
+    document.getElementById("resume-text34").innerText = text634;
+//表4
+    document.getElementById("resume-text41").innerText = text641;
+    document.getElementById("resume-text42").innerText = text642;
+    document.getElementById("resume-text43").innerText = text643;
+    document.getElementById("resume-text44").innerText = text644;
+//表5
+    document.getElementById("resume-text51").innerText = text651;
+    document.getElementById("resume-text52").innerText = text652;
+    document.getElementById("resume-text53").innerText = text653;
+    document.getElementById("resume-text54").innerText = text654;
+//表6
+    document.getElementById("resume-text61").innerText = text661;
+    document.getElementById("resume-text62").innerText = text662;
+    document.getElementById("resume-text63").innerText = text663;
+    document.getElementById("resume-text64").innerText = text664;
+//表7
+    document.getElementById("resume-text71").innerText = text671;
+    document.getElementById("resume-text72").innerText = text672;
+    document.getElementById("resume-text73").innerText = text673;
+    document.getElementById("resume-text74").innerText = text674;
+//表8
+    document.getElementById("resume-text81").innerText = text681;
+    document.getElementById("resume-text82").innerText = text682;
+    document.getElementById("resume-text83").innerText = text683;
+    document.getElementById("resume-text84").innerText = text684;
+//表9
+    document.getElementById("resume-text91").innerText = text691;
+    document.getElementById("resume-text92").innerText = text692;
+    document.getElementById("resume-text93").innerText = text693;
+    document.getElementById("resume-text94").innerText = text694;
+//表0
+    document.getElementById("resume-text01").innerText = text601;
+    document.getElementById("resume-text02").innerText = text602;
+    document.getElementById("resume-text03").innerText = text603;
+    document.getElementById("resume-text04").innerText = text604;
+    }
+  }
+</script>
+</html>
